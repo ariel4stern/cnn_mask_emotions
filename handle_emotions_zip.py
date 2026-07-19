@@ -7,7 +7,7 @@ import shutil
 # ========================
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-ZIP_PATH = os.path.join(BASE_DIR, 'emotions_real.zip')
+ZIP_PATH = os.path.join(BASE_DIR, 'emotions_data.zip')
 EXTRACT_PATH = os.path.join(BASE_DIR, '00_emotions_dataset')
 
 def remove_test_disgust(zip_path,extract_path):
