@@ -6,8 +6,6 @@
 Classes: {'angry': 0, 'fear': 1, 'happy': 2, 'neutral': 3, 'sad': 4, 'surprise': 5}
 Num classes: 6
 Epoch 1/40
-C:\Users\User\Desktop\Study_Pro\High_Projects_git\cnn_mask_emotions\.venv\lib\site-packages\keras\src\trainers\data_adapters\py_dataset_adapter.py:121: UserWarning: Your `PyDataset` class should call `super().__init__(**kwargs)` in its constructor. `**kwargs` can include `workers`, `use_multiprocessing`, `max_queue_size`. Do not pass these arguments to `fit()`, as they will be ignored.
-  self._warn_if_super_not_called()
 1238/1238 ━━━━━━━━━━━━━━━━━━━━ 212s 167ms/step - accuracy: 0.2934 - loss: 2.2625 - val_accuracy: 0.4643 - val_loss: 1.3856 - learning_rate: 0.0010
 Epoch 2/40
 1238/1238 ━━━━━━━━━━━━━━━━━━━━ 232s 187ms/step - accuracy: 0.4114 - loss: 1.5223 - val_accuracy: 0.4864 - val_loss: 1.3150 - learning_rate: 0.0010
