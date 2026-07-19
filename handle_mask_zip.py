@@ -15,9 +15,6 @@ MASK_DATASET_ROOT = os.path.join(MASK_EXTRACT_PATH, 'FMD_DATASET')
 # Function: flatten folders
 # ========================
 def flatten_folder(main_path):
-    # ========================
-    # Extract ZIP (if needed)
-    # ========================
     if not os.path.exists(MASK_EXTRACT_PATH):
         with zipfile.ZipFile(MASK_ZIP_PATH, 'r') as zip_ref:
             zip_ref.extractall(MASK_EXTRACT_PATH)
@@ -45,7 +42,6 @@ def flatten_folder(main_path):
 
             shutil.move(src_path, dst_path)
 
-    # מחיקת תיקיות ריקות
     for root, dirs, files in os.walk(main_path, topdown=False):
         if root != main_path and not os.listdir(root):
             os.rmdir(root)
