@@ -20,3 +20,5 @@ make sure all the files related to the project found in the same directory.
 **emotions_data.zip** : www.kaggle.com/datasets/msambare/fer2013
 
 **mask_data.zip** : www.kaggle.com/datasets/shiekhburhan/face-mask-dataset
+
+run **handle_mask_zip.py** **handle_emotions_zip.py** before your train the models.
