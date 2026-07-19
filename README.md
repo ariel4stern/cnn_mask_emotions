@@ -14,8 +14,8 @@ Run streamlit_show
 
 **For Retrain models:**
 
-here are links to the realated zip files.
-make sure all the files realated to the project found in the same directory.
+here are links to the related zip files.
+make sure all the files related to the project found in the same directory.
 
 **emotions_data.zip** : www.kaggle.com/datasets/msambare/fer2013
 
