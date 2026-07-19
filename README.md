@@ -8,3 +8,7 @@ drive.google.com/file/d/1ksGbro8L7pNO4Q5B01AwvNaMQpORTIos/view?usp=sharing
 
 ***mask_model:***      
 drive.google.com/file/d/1AD3RSzRwBvNj1ifoEcnHF173ap3ifj25/view?usp=drive_link
+
+After download, download requirements.txt with Python 3.10.
+
+Run streamlit_show
