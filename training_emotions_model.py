@@ -108,6 +108,7 @@ class CNN_OBJECT(ANN):
         if not os.path.exists(self.extract_path):
             if not os.path.exists(self.zip_file_path):
                 raise FileNotFoundError(f"Zip file not found: {self.zip_file_path}")
+
             with zipfile.ZipFile(self.zip_file_path, 'r') as zip_ref:
                 zip_ref.extractall(self.extract_path)
                 print("Zip Opened Successfully")
